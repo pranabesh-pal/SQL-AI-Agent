@@ -10,7 +10,7 @@ The agent automatically understands user requests, retrieves database schema inf
 
 **Demo Video**
 
-[Add Demo Video Link Here]
+![Workflow Demo](images/demo.gif)
 
 ---
 
@@ -63,7 +63,15 @@ flowchart LR
 
 ## N8N Workflow
 
-![Workflow](screenshots/workflow.png)
+**Main Workflow**
+
+![Main Workflow](images/main_workflow.png)
+
+
+**Branch Workflow**
+
+![Branch Workflow](images/branch_workflow.png)
+
 
 ### Components
 
@@ -104,37 +112,28 @@ flowchart LR
 
 ### Example 1
 
-**Question**
+**Top Products**
 
-> Which campaign generated the highest sales volume?
+![Top Products](images/top_products.gif)
 
-**Response**
-
-> The Diwali campaign generated the highest sales volume with 24,350 units sold.
 
 ---
 
 ### Example 2
 
-**Question**
+**Top Stores**
 
-> Compare sales before and after promotion for the Diwali campaign.
+![Top Stores](images/top_stores.gif)
 
-**Response**
-
-> Sales increased by 37% after the promotion compared to the pre-promotion period.
 
 ---
 
 ### Example 3
 
-**Question**
+**Bottom Products**
 
-> Which product category contributed the highest revenue?
+![Bottom Products](images/bottom_products.gif)
 
-**Response**
-
-> Electronics generated the highest revenue, contributing ₹1.8M during the selected period.
 
 ---
 ## Tech Stack
